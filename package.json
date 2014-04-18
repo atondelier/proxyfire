@@ -1,0 +1,25 @@
+{
+  "name": "proxyfire",
+  "version": "0.0.1",
+  "description": "A local multi proxy that replaces proxified origins in response contents with proxy target.",
+  "main": "CrossDomainProxyServer.js",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "http-proxy": "~0.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node proxy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexis Tondelier <atondelier@lafourchette.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lafourchette/proxyfire.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lafourchette/proxyfire/issues"
+  },
+  "homepage": "https://github.com/lafourchette/proxyfire"
+}
