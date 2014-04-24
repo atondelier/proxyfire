@@ -1,6 +1,6 @@
 {
   "name": "proxyfire",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A local multi proxy that replaces proxified origins in response contents with proxy target.",
   "main": "CrossDomainProxyServer.js",
   "dependencies": {
